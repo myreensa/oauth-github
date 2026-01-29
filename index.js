@@ -16,6 +16,7 @@ app.get("/", (req, res) => {
     
     return res.send(`
         <h1>Välkommen ${user.name}!</h1>
+        <H1>Du är inloggad som ${user.userName}</H1>
     `);
     }
 });
